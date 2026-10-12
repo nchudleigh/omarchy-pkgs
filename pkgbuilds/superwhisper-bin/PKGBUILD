@@ -1,8 +1,8 @@
 # Maintainer: Omarchy <https://omarchy.org>
 
 pkgname=superwhisper-bin
-pkgver=1.0.1
-_version=1.0.1
+pkgver=1.0.2
+_version=1.0.2
 pkgrel=1
 pkgdesc='Local and cloud voice dictation with Superwhisper'
 arch=('x86_64' 'aarch64')
@@ -40,10 +40,10 @@ sha256sums=('0672b5230ed6390f9168eaea009c6ce1e8838f0961a87888d9073d1e1db5267d'
             'c65169c8432223f26b072c8defe9ff65ef82c26be34cd92a9617ed112cb22570'
             'e67978d239e12a386ec335346b14e10cc7e3bed8b9b1d4bcbed4377f10d4695a'
             'ffbf2f42e403fca85eb73810742397884fbf949b715ed33cb98f618f33556c16')
-sha256sums_x86_64=('222a6e37be764390c69e2726d28964dabd4c7a1cebc6b0bf94b23691d4496e60'
-                   '5d68ba794965646b212081ceff053e1f63a13244996d62a081fb0830ad29272c')
-sha256sums_aarch64=('94f6ff6ae80221362417cdb5da9d41d3d6bb806fb25dc8a6d72dbcb96f1ed039'
-                    '578bc56a1cf3f44ba38a463a75ce9e6848e446f38e54248b1cb093fc25b05e16')
+sha256sums_x86_64=('c51b4688f8bc95ba532617f212f625d674ca493b069749c61b9f9dc5a1bd3680'
+                   '85de7213db0f8129456fca06d7191f2cff4fefecb28dc72a4488afb129a16a6c')
+sha256sums_aarch64=('4ced4418194c95ee0af5030b6ad25961abbbb4f617871b7775c066ead1f47727'
+                    '035f74112b0a4b5dfec33cde6e9fcd25ed084b3147de419c2158315d61215cf2')
 noextract=("superwhisper-$pkgver-$CARCH.tar.zst")
 
 prepare() {
